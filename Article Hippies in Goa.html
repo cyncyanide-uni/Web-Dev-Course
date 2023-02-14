@@ -3,26 +3,28 @@
 
 <head>
   <title>Hippies in Goa: A Cultural Phenomenon That Left Its Mark</title>
-  <style>
+<style>
 
     body {
       font-family: Georgia, serif;
       text-align: justify;
-      padding: 100px;
+      padding: 2%;
       background-color: #f2f2f2;
       font-size: 16px;
     }
 
     h1 {
       text-align: center;
-      font-size: 42px;
+      font-size: 36px;
       font-weight: bold;
       margin-bottom: 30px;
     }
 
     img {
-      margin: 10px 10px 10px 10px;
+      margin: 10px auto;
       border: 2px solid black;
+      max-width: 100%;
+      height: auto;
     }
 
     .byline {
@@ -31,15 +33,31 @@
     }
 
     .column {
-      
+      text-align: justify;
+      column-gap: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: 768px) {
+      .column {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        padding-top: 35px;
+      }
+    }
+
+    @media screen and (min-width: 1024px) {
+      .column {
         -webkit-column-count: 3;
         -moz-column-count: 3;
         column-count: 3;
         padding-top: 35px;
-        text-align: justify;
-
+      }
     }
   </style>
+  
 </head>
 
 <body>
