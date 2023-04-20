@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product API</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+              
+                <select class="custom-select ml-2" id="categorySelect" onchange="displayProductsByCategory()">
+                    <option value="" selected>Choose a category</option>
+                </select>
+                <div class="flex  justify-center items-center py-2 object-contain">
+                    <button class="btn btn-primary" onclick="displayProductsByCategory()">Fetch Data</button>
+                </div>
+               
+            </div>
+        </div>
+        <div class="row mt-4" id="productList">
+            <!-- Products will be displayed here -->
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <!-- Add Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+</body>
+</html>
