@@ -1,6 +1,0 @@
-In this assignment, you will populate data from an API (https://dummyjson.com/products). The JSON data from the API contains 
-products of various categories.
-Keep a button to fetch the data. Keep a drop down to select category (fetched from API) to show brand, productName(title), price,
-category, images.
-Keep the images small and fixed-size (height). Use Bootstrap for CSS.
-As always, separate the concerns (html, js) in separate files.
